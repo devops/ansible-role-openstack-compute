@@ -1,0 +1,7 @@
+---
+# defaults file for ansible-role-openstack-compute
+
+openstack_neutron_public_interface: "br-eth2"
+
+openstack_libvirt_secret_uuid: "ae4f345d-a5ed-4a5a-93c8-110be417d5a5"
+openstack_ceph_enable: False

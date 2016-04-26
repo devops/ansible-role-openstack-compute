@@ -1,0 +1,7 @@
+---
+# handlers file for ansible-role-openstack-compute
+
+- name: restart nova
+  service: name={{ item }} state=restarted
+  with_items:
+   - openstack-nova-compute
